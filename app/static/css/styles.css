@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('https://storage.googleapis.com/pokeimagenes/pokeneas/background.png');
-    background-size: cover;
+    background-size: repeat;
     color: #333;
     text-align: center;
     margin: 0;
