@@ -63,6 +63,11 @@
 <body>
     <div class="container">
         <h1>Todos los Pokeneas</h1>
+        <div class="flex">
+            <a href="{{ url_for('routes.random_pokenea_json') }}" class="btn">Random Json</a>
+            <a href="{{ url_for('routes.random_pokenea_page') }}" class="btn">Random Pokenea</a>
+        </div>
+
         <div class="card-container">
             {% for pokenea in pokeneas %}
                 <div class="card">
